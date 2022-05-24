@@ -5,7 +5,7 @@
 
 .about-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
   padding: 5em;
 }
@@ -31,4 +31,5 @@ p {
   font-weight: 300;
   font-size: 20px;
   color: #f3f3ff;
+  text-align: start;
 }
